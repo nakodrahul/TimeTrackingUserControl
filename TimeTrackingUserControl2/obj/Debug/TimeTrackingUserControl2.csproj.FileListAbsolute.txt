@@ -1,0 +1,11 @@
+C:\Users\91820\source\repos\TimeTrackingUserControl2\TimeTrackingUserControl2\bin\Debug\TimeTrackingUserControl2.exe.config
+C:\Users\91820\source\repos\TimeTrackingUserControl2\TimeTrackingUserControl2\bin\Debug\TimeTrackingUserControl2.exe
+C:\Users\91820\source\repos\TimeTrackingUserControl2\TimeTrackingUserControl2\bin\Debug\TimeTrackingUserControl2.pdb
+C:\Users\91820\source\repos\TimeTrackingUserControl2\TimeTrackingUserControl2\obj\Debug\TimeTrackingUserControl2.Properties.Resources.resources
+C:\Users\91820\source\repos\TimeTrackingUserControl2\TimeTrackingUserControl2\obj\Debug\TimeTrackingUserControl2.TimeTrackerUC2.resources
+C:\Users\91820\source\repos\TimeTrackingUserControl2\TimeTrackingUserControl2\obj\Debug\TimeTrackingUserControl2.csproj.GenerateResource.cache
+C:\Users\91820\source\repos\TimeTrackingUserControl2\TimeTrackingUserControl2\obj\Debug\TimeTrackingUserControl2.csproj.CoreCompileInputs.cache
+C:\Users\91820\source\repos\TimeTrackingUserControl2\TimeTrackingUserControl2\obj\Debug\TimeTrackingUserControl2.exe
+C:\Users\91820\source\repos\TimeTrackingUserControl2\TimeTrackingUserControl2\obj\Debug\TimeTrackingUserControl2.pdb
+C:\Users\91820\source\repos\TimeTrackingUserControl2\TimeTrackingUserControl2\obj\Debug\TimeTrackingUserControl2.Form2.resources
+C:\Users\91820\source\repos\TimeTrackingUserControl2\TimeTrackingUserControl2\obj\Debug\TimeTrackingUserControl2.csprojAssemblyReference.cache

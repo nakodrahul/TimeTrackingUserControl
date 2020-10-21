@@ -1,0 +1,53 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Data.SqlClient;
+using Microsoft.IdentityModel.Protocols;
+using System.Configuration;
+
+namespace TestTimeTrackingUserControl
+{
+    public class TimeTrackerClass
+    {
+        string connectionString;
+        SqlConnection connection;
+        SqlCommand command;
+        public TimeTrackerClass()
+        {
+
+            if (ConfigurationManager.ConnectionStrings["dbcs"] != null)
+            {
+                 connectionString = ConfigurationManager.ConnectionStrings["dbcs"].ConnectionString;
+            }
+            else return;
+            connection = new SqlConnection(connectionString);
+            string sqlQuery = "INSERT INTO ProjectTime VALUES (@ElevationId,@FabSheetId,@Mode,@StartTime,@EndTime,@Duration,@UserName)";
+            command = new SqlCommand(sqlQuery, connection);
+                                              
+        }
+
+        public void OnStopButton(string mode,DateTime start,DateTime end,double span, string user1) 
+        {
+
+
+            command.Parameters.AddWithValue("ElevationId",DBNull.Value);
+            command.Parameters.AddWithValue("FabSheetId", DBNull.Value);
+            command.Parameters.AddWithValue("Mode", mode);
+            command.Parameters.AddWithValue("StartTime", start);
+            command.Parameters.AddWithValue("EndTime", end);
+            command.Parameters.AddWithValue("Duration", span);
+            command.Parameters.AddWithValue("UserName", user1);
+
+            connection.Open();
+            command.ExecuteNonQuery();
+            connection.Close();
+
+        }
+    }
+}
